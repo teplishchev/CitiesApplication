@@ -25,8 +25,9 @@ dependencyResolutionManagement {
 rootProject.name = "CitiesApplication"
 include(":app")
 include(":core:network")
+include(":core:navigation")
 include(":core:ui")
-include(":feature:citieslist:api")
-include(":feature:citieslist:impl")
-include(":feature:details:api")
-include(":feature:details:impl")
+include(":feature:cities:api")
+include(":feature:cities:impl")
+include(":feature:map:api")
+include(":feature:map:impl")

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cities_list_title">Список городов</string>
+
+    <string name="detail_title">Информация о городе</string>
+    <string name="detail_search_web">Поиск информации о городе</string>
+
+    <string name="action_back">Назад</string>
+    <string name="action_retry">Попробовать снова</string>
+
+    <string name="empty_list_title">Пусто</string>
+    <string name="empty_list_description">По Вашему запросу не удалось ничего найти</string>
+
+    <string name="error_no_internet_title">Нет подключения\nк интернету</string>
+    <string name="error_no_internet_description">Проверьте соединение и попробуйте\nснова. Без интернета данные\nне загрузятся</string>
+    <string name="error_unknown_title">Произошла ошибка</string>
+    <string name="error_unknown_description">Мы уже работаем над устранением\nошибки. Попробуйте позднее.</string>
+    <string name="error_loading">Ошибка при загрузке</string>
+</resources>

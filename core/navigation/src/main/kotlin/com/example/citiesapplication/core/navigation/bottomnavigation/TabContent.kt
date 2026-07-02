@@ -1,0 +1,3 @@
+package com.example.citiesapplication.core.navigation.bottomnavigation
+
+interface TabContent

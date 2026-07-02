@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    // Для поиска
+    <string name="search_hint_text">Введите название города</string>
+    <string name="clear_search_query">Очистить</string>
+
+    <string name="detail_name">Город</string>
+    <string name="detail_country">Страна</string>
+    <string name="detail_population">Население</string>
+    <string name="detail_population_unit">чел</string>
+</resources>

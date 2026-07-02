@@ -40,15 +40,21 @@ android {
 }
 
 dependencies {
-    implementation(platform(libs.androidx.compose.bom))
+    implementation(project(":core:network"))
+    implementation(project(":core:navigation"))
+    implementation(project(":core:ui"))
+    implementation(project(":feature:cities:api"))
+    implementation(project(":feature:cities:impl"))
+    implementation(project(":feature:map:api"))
+    implementation(project(":feature:map:impl"))
+
     implementation(libs.androidx.activity.compose)
-    implementation(libs.androidx.compose.material3)
     implementation(libs.androidx.compose.ui)
-    implementation(libs.androidx.compose.ui.graphics)
-    implementation(libs.androidx.compose.ui.tooling.preview)
-    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.compose.material3)
+    implementation(libs.osmdroid.android)
+    implementation(platform(libs.androidx.compose.bom))
 
-    androidTestImplementation(platform(libs.androidx.compose.bom))
-
-    debugImplementation(libs.androidx.compose.ui.tooling)
+    // Koin (DI)
+    implementation(libs.koin.android)
+    implementation(libs.koin.androidx.compose)
 }
